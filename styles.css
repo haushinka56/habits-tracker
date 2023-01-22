@@ -105,8 +105,8 @@ input:checked {
   #registrar {
     display: none;
   }
-  input {
+  /* input {
     width: 32px;
     height: 32px;
-  }
+  }*/
 }

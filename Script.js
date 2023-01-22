@@ -14,8 +14,8 @@ function add() {
     alert("Dia já adicionado")
     return
   }
-  //alert("Adicionado com sucesso")
-  //habitsSetup.addDay(today)
+  alert("Adicionado com sucesso")
+  habitsSetup.addDay(today)
 }
 
 function save() {
