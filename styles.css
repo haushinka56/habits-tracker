@@ -1,0 +1,112 @@
+html * {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #09090a;
+  color: #e2dafe;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #09090a;
+}
+
+button {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #885cf6;
+  background-color: transparent;
+  color: #e2dafe;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+}
+
+form {
+  display: flex;
+  padding: 182px 48px 48px;
+}
+input {
+  appearance: none;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  border: 2px solid #27272a;
+  display: flex;
+  margin: 0;
+  /* make the width and height responsive */
+}
+
+input:checked {
+  background: #885cf6;
+  border: 2px solid #a788fa;
+}
+
+.filler {
+  height: 24px;
+}
+
+.habits {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.habit {
+  width: 170px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #e2dafe;
+}
+
+.days {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 14px;
+  width: 100%;
+  gap: 12px;
+}
+
+.day div {
+  height: 24px;
+
+  font-size: 16px;
+  line-height: 125%;
+  color: #e2dafe;
+  text-align: center;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  #registrar {
+    display: none;
+  }
+  input {
+    width: 32px;
+    height: 32px;
+  }
+}
