@@ -65,6 +65,7 @@ input:checked {
   display: flex;
   gap: 12px;
   flex-direction: column;
+  position: fixed;
 }
 
 .habit {
