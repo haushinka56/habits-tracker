@@ -66,6 +66,7 @@ input:checked {
   gap: 12px;
   flex-direction: column;
   position: fixed;
+  background-color: #27272a;
 }
 
 .habit {
@@ -81,7 +82,7 @@ input:checked {
 .days {
   display: flex;
   justify-content: space-between;
-  margin-left: 14px;
+  margin-left: 184px;
   width: 100%;
   gap: 12px;
 }
