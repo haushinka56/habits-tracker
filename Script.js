@@ -7,7 +7,7 @@ button.addEventListener("click", add)
 form.addEventListener("change", save)
 
 function add() {
-  const today = new Date().toLocaleDateString("en").slice(0, -5)
+  const today = new Date().toLocaleDateString("pt-br").slice(0, -5)
   const dayExists = habitsSetup.dayExists(today)
 
   if (dayExists) {
