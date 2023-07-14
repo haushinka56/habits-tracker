@@ -7,14 +7,14 @@ button.addEventListener("click", add)
 form.addEventListener("change", save)
 
 function add() {
-  const today = new Date().toLocaleDateString("pt-br").slice(0, -5)
+  const today = new Date().toLocaleDateString("en").slice(0, -5)
   const dayExists = habitsSetup.dayExists(today)
 
   if (dayExists) {
-    alert("Dia já adicionado")
+    alert("Today was already added")
     return
   }
-  alert("Adicionado com sucesso")
+  alert("Added with success")
   habitsSetup.addDay(today)
 }
 

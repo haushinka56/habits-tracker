@@ -1,49 +1,34 @@
-<h1 align="center"> Habits </h1>
+# Habits
 
-<p align="center">
-NLW é um evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-</p>
+NLW is an exclusive and free event promoted by Rocketseat for teaching web technologies.
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
+## Technologies
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
+This project was developed using the following technologies:
 
-<br>
+- HTML and CSS
+- JavaScript
+- Git and GitHub
+- Figma
+
+## About the Project
+
+Habits is an app designed to help track your habits.
+
+- [Visit the project online](https://haushinka56.github.io/habits-tracker)
 
 <p align="center">
   <img alt="projeto Habits" src=".github/preview.jpg" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## Layout
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+You can view the project's layout by clicking [HERE](https://www.figma.com/community/file/1195327109778210238). A [Figma](https://figma.com) account is required to access it.
 
-- HTML e CSS
-- JavaScript
-- Git e Github
-- Figma
+## License
 
-## 💻 Projeto
-
-O Habits é um app para ajudar a rastrear os hábitos.
-
-- [Visite o projeto online](https://haushinka56.github.io/habits-tracker)
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1195327109778210238). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT.
+This project is licensed under the MIT License.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Made with ♥ by Rocketseat. [Join our community!](https://discord.gg/rocketseat)
